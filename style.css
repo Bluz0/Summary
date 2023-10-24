@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'hanken';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+  }
+
+@font-face {
+    font-family: 'hanken bold';
+    src: url('assets/fonts/static/HankenGrotesk-Bold.ttf');
+  }
+
+@font-face {
+    font-family: 'hanken meduim';
+    src: url('assets/fonts/static/HankenGrotesk-Medium.ttf');
+  }
+
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.card{
+    display:flex;
+    margin-top:150px;
+    border-radius: 20px;
+}
+
+.section1{
+    height: 450px;
+    width: 360px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background: rgb(72,26,2);
+    background: linear-gradient(360deg, rgba(72,26,2,1) 0%, rgba(53,47,235,1) 0%, rgba(101,65,253,1) 100%); 
+    font-family: 'hanken';
+}
+
+.section1 h3{
+
+    font-family: 'hanken';
+    color:#bcabff;
+    text-align: center;
+}
+
+#score{
+
+    height:150px;
+    width:180px;
+    padding-top:25px;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 85px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(72,26,2);
+    background: linear-gradient(180deg, rgba(72,26,2,1) 0%, rgba(75,35,202,1) 0%, rgba(71,52,238,1) 100%);  
+}
+
+
+#score #one{
+    font-size: 70px;
+    color:white;
+}
+
+#score #two{
+    font-family: 'hanken bold';
+    color:#bcabff
+}
+
+.section1 h2{
+    color:white;
+    text-align: center;
+}
+
+#text{
+    height:80px;
+
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.section2 h3{
+
+    font-family: 'hanken';
+    color:#353c52;
+    padding-left:20px;
+}
+
+.reac {
+    background-color: #fff6f5;
+    overflow:hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    width:250px;
+    margin-left:20px;
+    margin-right:20px;
+    height:50px;
+}
+
+.reac #titre{
+    color:#ff5454;
+    font-family:'hanken bold';
+    height:10px;
+    width:70px;
+    padding-top:15px;
+    padding-left:10px;
+    position: absolute;
+}
+
+#flash{
+
+    padding-top:15px;
+    padding-left:5px;
+
+}
+
+#ocho{
+    color:black;
+}
+
+#prems{
+    color:grey;
+    position: absolute;
+    margin-left:140px;
+    margin-right:60px;
+    margin-top:15px ;
+    font-size:18px;
+    height:20px;
+    width:120px;
+    text-align: left;
+    font-family: 'hanken meduim';
+
+}
+
+.memo{
+    background-color: #fffbf2;
+    border-radius: 10px;
+    width:250px;
+    margin-left:20px;
+    margin-right:20px;
+    height:50px;
+}
+
+.memo #mem{
+    color:#f0d184;
+    font-family:'hanken bold';
+    height:10px;
+    width:70px;
+    padding-top:15px;
+    padding-left:10px;
+    position: absolute;
+}
+
+#brain{
+    padding-top:15px;
+    padding-left:5px;
+}
+
+.verb{
+    background-color: #f2fbfa;
+    border-radius: 10px;
+    width:250px;
+    margin-left:20px;
+    margin-right:20px;
+    height:50px;
+}
+
+.verb #v{
+    color:#48c8a5;
+    font-family:'hanken bold';
+    height:10px;
+    width:70px;
+    padding-top:15px;
+    padding-left:10px;
+    position: absolute;
+}
+
+#comm{
+    padding-top:15px;
+    padding-left:5px;
+}
+
+.visu{
+    background-color: #f3f3fd;
+    border-radius: 10px;
+    width:250px;
+    margin-left:20px;
+    margin-right:20px;
+    height:50px;
+}
+
+.visu #vov{
+    color:#313791;
+    font-family:'hanken bold';
+    height:10px;
+    width:70px;
+    padding-top:15px;
+    padding-left:10px;
+    position: absolute;
+}
+
+#visual{
+    padding-top:15px;
+    padding-left:5px;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border : 1px solid;
+    height:45px;
+    margin-left:19px;
+    margin-right: 19px;
+    border-radius: 25px;
+    font-family : 'hanken';
+    color:white;
+    cursor:pointer;
+    background-color: #303b59;
+}
+
+#button:hover{
+
+    background: rgb(72,26,2);
+    background: linear-gradient(360deg, rgba(72,26,2,1) 0%, rgba(53,47,235,1) 0%, rgba(101,65,253,1) 100%); 
+
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .card{
+        display:inline-block;
+        margin-top:-40px;
+        border-radius: 20px;
+    }
+
+    .section1{
+        height: 385px;
+        width: 660px;
+        padding-top: 20px;
+        border-radius: 20px;
+        background: rgb(72,26,2);
+        background: linear-gradient(360deg, rgba(72,26,2,1) 0%, rgba(53,47,235,1) 0%, rgba(101,65,253,1) 100%); 
+        font-family: 'hanken';
+    }
+
+    .section1 #score{
+
+        height:150px;
+        width:180px;
+        padding-top:25px;
+        margin-top: 30px;
+        align-items: center;
+        margin-left: 235px;
+        text-align: center;
+        border-radius: 50%;
+        background: rgb(72,26,2);
+        background: linear-gradient(180deg, rgba(72,26,2,1) 0%, rgba(75,35,202,1) 0%, rgba(71,52,238,1) 100%);  
+    }
+
+    #text{
+        display: flexbox;
+        height:80px;
+        width: 200px;
+        margin-left: 171px;
+
+    }
+
+    .section2{
+        margin-left: 100px;
+    }
+
+    .reac{
+        width: 450px;
+    }
+
+    .memo{
+        width: 450px;
+    }
+
+    .verb{
+        width: 450px;
+    }
+
+    .visu{
+        width: 450px;
+    }
+    
+    #prems{
+        
+        color:grey;
+        position: absolute;
+        margin-left:300px;
+        margin-right:60px;
+        margin-top:15px ;
+        font-size:18px;
+        height:20px;
+        width:120px;
+        text-align: left;
+        font-family: 'hanken meduim';
+    
+    }
+
+    #button{
+
+        margin-right:90px;
+    }
+}
+  
+
+
